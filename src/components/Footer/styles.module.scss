@@ -1,0 +1,40 @@
+.footer {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+  padding-inline: 5rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  a {
+    transition: all 0.2s ease;
+
+    svg {
+      width: 26px;
+      height: 26px;
+      color: white;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.avatarInfo {
+ 
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+
+  span {
+    color: white;
+    font-size: 0.8rem;
+  }
+}
