@@ -36,7 +36,7 @@ export function Projects() {
           <div className={styles.info}>
             <h3>Xadrez Game</h3>
             <p>Chess game developed in C++ applying the concepts of object-oriented programming.</p>
-            <Button width={"10rem"} title={"More info"}/>
+            <Button width={"10rem"} onClick={() => linkTo("https://github.com/YuutaDragon/oo-xadrez")} title={"More info"}/>
           </div>
         </div>
       </div>
